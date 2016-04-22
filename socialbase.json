@@ -1,0 +1,126 @@
+{
+  "social" : {
+    "comments" : {
+      "your_comment_id" : {
+        "content" : "sample comment",
+        "created_at" : "created_at_timestamp",
+        "post_id" : "sample_post_id",
+        "updated_at" : "updated_at_timestamp",
+        "user_id" : "your_user_id"
+      }
+    },
+    "connections" : {
+      "from_user_id" : {
+        "created_at" : "created_at_timestamp",
+        "enabled" : true,
+        "state" : "confirmed",
+        "to_user_id" : "to_user_id_value",
+        "type" : "follow",
+        "updated_at" : "updated_at_timestamp"
+      }
+    },
+    "events" : {
+      "your_event_id" : {
+        "created_at" : "created_at_timestamp",
+        "enabled" : true,
+        "object" : {
+          "display_names" : {
+            "en" : "Title of the article"
+          },
+          "id" : "article_1",
+          "type" : "article",
+          "url" : "example.com/article1"
+        },
+        "owned" : false,
+        "type" : "event_type",
+        "updated_at" : "updated_at_timestamp",
+        "user_id" : "your_user_id",
+        "visibility" : 20
+      }
+    },
+    "likes" : {
+      "your_like_id" : {
+        "created_at" : "created_at_timestamp",
+        "post_id" : "sample_post_id",
+        "updated_at" : "updated_at_timestamp"
+      }
+    },
+    "posts" : {
+      "your_post_id" : {
+        "attachements" : [ {
+          "content" : "http://image.url/content1.png",
+          "name" : "image",
+          "type" : "url"
+        }, {
+          "content" : "sample status message",
+          "name" : "post",
+          "type" : "text"
+        } ],
+        "created_at" : "created_at_timestamp",
+        "is_liked" : false,
+        "tags" : [ "landscape", "walk", "outside" ],
+        "updated_at" : "updated_at_timestamp",
+        "user_id" : "posted_by_user_id",
+        "visibility" : 30
+      }
+    },
+    "search" : {
+      "by_email" : {
+        "email_in_base64" : {
+          "first_name" : "Mohamed Amine",
+          "id" : "my_user_id",
+          "last_name" : "Aboura",
+          "value" : "am.aboura@gmail.com"
+        }
+      },
+      "by_social_id" : {
+        "social_id_base64" : {
+          "first_name" : "Mohamed Amine",
+          "id" : "sample_user_id",
+          "last_name" : "Aboura",
+          "provider" : "fb",
+          "value" : "sample_social_id"
+        }
+      }
+    },
+    "users" : {
+      "893892" : {
+        "connections" : {
+          "followers" : [ "sample_connection_id", "sample_connection_id", "sample_connection_id" ],
+          "following" : [ "sample_connection_id", "sample_connection_id", "sample_connection_id" ]
+        },
+        "created_at" : "created_at_timestamp",
+        "custom_id" : 1,
+        "email" : "am.aboura@gmail.com",
+        "enabled" : true,
+        "feeds" : {
+          "comments" : [ "sample_comment_id", "sample_comment_id", "sample_comment_id" ],
+          "events" : [ "sample_event_id", "sample_event_id", "sample_event_id" ],
+          "likes" : [ "sample_like_id", "sample_like_id", "sample_like_id" ]
+        },
+        "first_name" : "Mohamed Amine",
+        "followed_count" : 0,
+        "follower_count" : 0,
+        "friend_count" : 0,
+        "last_login" : "sample_timestamp",
+        "last_name" : "Aboura",
+        "metadata" : {
+          "another_field" : "another_value",
+          "fav_food" : "seafood"
+        },
+        "session_token" : {
+          "expire" : "your_token_expiry_timestamp",
+          "value" : "your_session_token_here"
+        },
+        "social_ids" : {
+          "facebook" : "sample_facebook_id",
+          "google" : "sample_google_id",
+          "twitter" : "sample_twitter_id"
+        },
+        "updated_at" : "updated_at_timestamp",
+        "url" : "example.com/amaboura",
+        "user_name" : "amaboura"
+      }
+    }
+  }
+}
